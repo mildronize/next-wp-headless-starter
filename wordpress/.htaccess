@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteBase /
+RewriteRule ^wp-json/(.*) /?rest_route=/$1 [L]
+# BEGIN WordPress
+
+# END WordPress
